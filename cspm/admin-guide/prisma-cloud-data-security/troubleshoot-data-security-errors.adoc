@@ -16,9 +16,15 @@ Review this section for information on how to resolve some common errors when yo
 
 After configuring data security for your Azure Subscription account, if you see missing permissions error message, it’s because you have enabled access to storage account from a selected network and IP address. To fix this issue, add the following IPs to the firewall allow list:
 
+Data Security on Prisma Cloud US
 * 3.128.230.117
-* 3.14.212.156
 * 3.22.23.119
+* 3.14.212.156
+
+Data Security on Prisma Cloud EU
+* 3.64.66.135
+* 18.198.52.216
+* 3.127.191.112
 
 
 [#ida16753bb-b91e-412d-b373-71ff3526d8e3]
